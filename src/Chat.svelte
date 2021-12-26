@@ -3,7 +3,7 @@
   import ChatMessage from "./ChatMessage.svelte";
   import { onMount } from "svelte";
   import { username, user } from "./user";
-  import debounce from "lodash.debounce";
+  import debounce from "debounce";
 
   import GUN from "gun";
   const db = GUN();
